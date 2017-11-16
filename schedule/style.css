@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h4 {
+	font-size: 0.3rem;
+}
+.container {
+	width: 6.4rem;
+	height: 11.36rem;
+	box-sizing: border-box;
+	padding: 0.5rem;
+	color: #909090;
+}
+header,section,footer {
+	text-align: center;
+	height: 3.6rem;
+}
+/*头部*/
+header i {
+	width: 0.64rem;
+	height: 0.64rem;
+	background-position: center;
+}
+header .back {
+	float: left;
+	background: url(images/back.png) no-repeat;
+}
+header .search {
+	float: right;
+	background: url(images/search.png) no-repeat;
+}
+header .center_img {
+	width: 1.28rem;
+	height: 1.28rem;
+	display: inline-block;
+	background: url(images/huiye.jpg) no-repeat;
+	border: 2px solid #909090;
+	border-radius: 50%;
+	margin: 0.8rem auto 0.2rem;
+}
+section {
+	margin-top: 0.22rem;
+}
+section p {
+	font-size: 0.3rem;
+	line-height: 0.8rem;
+}
+section span {
+	font-size: 1.5rem;
+}
+section i {
+	width: 0.64rem;
+	height: 0.64rem;
+	background-position: center;
+	margin: 0.5rem 0.8rem 0;
+}
+section .sub {
+	float: left;
+	background: url(images/sub.png) no-repeat;
+}
+section .add {
+	float: right;
+	background: url(images/add.png) no-repeat;
+}
+section .time {
+	font-weight: bold;
+}
+/*确认按钮*/
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer input {
+	border: none;
+	width: 4.4rem;
+	height: 1rem;
+	color: #fff;
+	background-color: rgb(71,72,80);
+	box-shadow: 2px 2px 4px #ccc;
+}
