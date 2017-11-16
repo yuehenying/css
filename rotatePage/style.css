@@ -26,7 +26,7 @@ li{
 	transform-origin: 50% 0;
 }
 .page:hover {
-	transform: rotateX(90deg);
+	transform: rotateX(45deg);
 }
 .page img {
 	/*vertical-align: bottom;*/
